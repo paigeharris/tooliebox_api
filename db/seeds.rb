@@ -20,13 +20,15 @@ Tool.create(
       title:"For Loop",
       language_id: 1,
       description: "Repeats a block of code a semi-determined amount of times using an iterator",
-      repl_url: "https://repl.it/repls/ConcernedGoldNorthernseahorse"
+      repl_url: "https://repl.it/repls/ConcernedGoldNorthernseahorse",
+      num_belts:1
     },
     {
       title:"For Of Loop",
       language_id: 1,
       description: "Repeats a block of code for every position of an array the iterator taking the value of that position",
-      repl_url: "https://repl.it/repls/SizzlingSlimyGenet"
+      repl_url: "https://repl.it/repls/SizzlingSlimyGenet",
+      num_belts:2
     }
   ]
 )
