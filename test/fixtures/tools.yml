@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  language: one
+  description: MyString
+  repl_url: MyString
+  num_belts: 1
+
+two:
+  title: MyString
+  language: two
+  description: MyString
+  repl_url: MyString
+  num_belts: 1
