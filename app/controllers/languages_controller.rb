@@ -5,7 +5,7 @@ class LanguagesController < ApplicationController
   def index
     @languages = Language.all
 
-    render json: @languages.to_json(include: {tools: {include: :tags}})
+    render json: @languages
   end
 
   # GET /languages/1

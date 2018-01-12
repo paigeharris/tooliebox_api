@@ -4,12 +4,12 @@ Language.create(
     {
       name:"JavaScript",
       dox_url:"https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      img_url:"img/javascript.svg"
+      img_url:"img/svg/javascript.svg"
     },
     {
       name:"Ruby",
       dox_url:"http://ruby-doc.org/",
-      img_url:"img/ruby.svg"
+      img_url:"img/svg/ruby.svg"
     }
   ]
 )
