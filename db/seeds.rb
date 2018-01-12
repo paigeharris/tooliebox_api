@@ -66,7 +66,7 @@ Tagger.create(
       tag_id:3
     },
     {
-      tool_id:1,
+      tool_id:2,
       tag_id:2
     }
   ]
