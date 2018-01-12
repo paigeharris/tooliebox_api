@@ -4,7 +4,7 @@ Language.create(
     {
       name:"JavaScript",
       dox_url:"https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      img_url:"img/svg/javascript.svg"
+      img_url:"img/svg/js.svg"
     },
     {
       name:"Ruby",

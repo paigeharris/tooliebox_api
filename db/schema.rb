@@ -50,6 +50,6 @@ ActiveRecord::Schema.define(version: 2018_01_11_235620) do
   end
 
   add_foreign_key "taggers", "tags"
-  add_foreign_key "taggers", "tools", column: "tool_id"
+  add_foreign_key "taggers", "tools"
   add_foreign_key "tools", "languages"
 end
