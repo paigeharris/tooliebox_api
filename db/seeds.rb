@@ -187,12 +187,6 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Adding-to-Array-by-push-Method",
       num_belts:0
     },
-      title:"Multi-dimentional Arrays: Using an Array within an Array",
-      language_id: 1,
-      description: "Array elements containing other arrays",
-      repl_url: "https://repl.it/@carriesampson/JS-Adding-to-Array-by-push-Method",
-      num_belts:0
-    },
   ]
 )
 
