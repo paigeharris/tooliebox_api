@@ -155,10 +155,10 @@ Tool.create(
       num_belts:0
     },
     {
-      title:"Array to Retrieve Item by Index",
+      title:"Query Array to Retrieve Item by Index",
       language_id: 1,
-      description: "Array to Retrieve Item by Index",
-      repl_url: "https://repl.it/@carriesampson/JS-Array-to-Find-Item-by-Index",
+      description: "Query Array to Retrieve Item by Index",
+      repl_url: "https://repl.it/@carriesampson/JS-Query-Array-to-Find-Item-by-Index",
       num_belts:0
     },
     {
@@ -183,7 +183,7 @@ Tool.create(
       num_belts:0
     },
     {
-      title:"Update an Item in an Arrayby Index",
+      title:"Update an Item in an Array by Index",
       language_id: 1,
       description: "Update an Item in an Array by Index",
       repl_url: "https://repl.it/@carriesampson/JS-Update-Item-in-Array",
@@ -197,10 +197,87 @@ Tool.create(
       num_belts:0
     },
     {
-      title:"Add an Item in an Array by .push() Method",
+      title:"Add an Item to an Array by .push() Method",
       language_id: 1,
-      description: "Add an Item in an Array by Push Method",
+      description: "Add an Item to an Array by Push Method",
       repl_url: "https://repl.it/@carriesampson/JS-Adding-to-Array-by-push-Method",
+      num_belts:0
+    },
+    {
+      title:"Remove an Item from an Array by .pop() Method",
+      language_id: 1,
+      description: "Remove an Item from an Array by .pop() Method",
+      repl_url: "https://repl.it/@carriesampson/JS-Deleting-from-Array-by-pop-Method",
+      num_belts:0
+    },
+    {
+      title:"Anonymous Function, Simple Syntax",
+      language_id: 1,
+      description: "Write an anonymous function and invoke (run) that function",
+      repl_url: "https://repl.it/@carriesampson/JS-Anonymous-Function-Simple-Syntax",
+      num_belts:0
+    },
+    {
+      title:"Named Function including If/Else Conditional Statement",
+      language_id: 1,
+      description: "Named Function including If/Else Conditional Statement",
+      repl_url: "https://repl.it/@carriesampson/JS-Named-Function-including-IfElse-Conditional-Statement",
+      num_belts:0
+    },
+    {
+      title:"Function Interpolation with an Argument",
+      language_id: 1,
+      description: "Function Interpolation with an Argument",
+      repl_url: "https://repl.it/@carriesampson/JS-Function-Interpolation-with-an-Argument",
+      num_belts:0
+    },
+    {
+      title:"",
+      language_id: 1,
+      description: "",
+      repl_url: "",
+      num_belts:0
+    },
+    {
+      title:"",
+      language_id: 1,
+      description: "",
+      repl_url: "",
+      num_belts:0
+    },
+    {
+      title:"",
+      language_id: 1,
+      description: "",
+      repl_url: "",
+      num_belts:0
+    },
+    {
+      title:"",
+      language_id: 1,
+      description: "",
+      repl_url: "",
+      num_belts:0
+    },
+    {
+      title:"",
+      language_id: 1,
+      description: "",
+      repl_url: "",
+      num_belts:0
+    },
+    {
+      title:"",
+      language_id: 1,
+      description: "",
+      repl_url: "",
+      num_belts:0
+    },
+    {
+      title:"",
+      language_id: 1,
+      description: "",
+      repl_url: "",
       num_belts:0
     },
   ]
