@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
   before_action :authenticate_token, except: [:login, :create]
+  before_action :authorize_user, except: [:login, :create, :index]
   # GET /users
   def index
     @users = User.all
@@ -10,7 +11,8 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user
+    # render json: @user
+    render json: get_current_user
   end
 
   # POST /users
@@ -46,20 +48,20 @@ class UsersController < ApplicationController
     else
       render json: {status: 401, message: "Unauthorized"}
     end
-end
+  end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_user
-      @user = User.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_user
+    @user = User.find(params[:id])
+  end
 
-    # Only allow a trusted parameter "white list" through.
-    def user_params
-      params.require(:user).permit(:username, :img, :password_digest)
-    end
+  # Only allow a trusted parameter "white list" through.
+  def user_params
+    params.require(:user).permit(:username,  :password_digest, :img)
+  end
 
-    def payload(id, username, img)
+  def payload(id, username, img)
     {
       exp: (Time.now + 30.minutes).to_i,
       iat: Time.now.to_i,
@@ -73,7 +75,18 @@ end
   end
 
   def create_token(id, username, img)
-  JWT.encode(payload(id, username, img), ENV['JWT_SECRET'], 'HS256')
-end
+    JWT.encode(payload(id, username, img), ENV['JWT_SECRET'], 'HS256')
+  end
+
+  def get_current_user
+    return if !bearer_token
+    decoded_jwt = decode_token(bearer_token)
+    User.find(decoded_jwt[0]["user"]["id"])
+  end
+
+  def authorize_user
+    render json: { status: 401, message: "Unauthorized" } unless get_current_user.id == params[:id].to_i
+  end
+
 
 end
