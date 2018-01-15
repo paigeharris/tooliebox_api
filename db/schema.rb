@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_01_14_224952) do
+ActiveRecord::Schema.define(version: 2018_01_15_193438) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -46,6 +46,8 @@ ActiveRecord::Schema.define(version: 2018_01_14_224952) do
     t.integer "num_belts"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "repl"
+    t.string "link_url"
     t.index ["language_id"], name: "index_tools_on_language_id"
   end
 
