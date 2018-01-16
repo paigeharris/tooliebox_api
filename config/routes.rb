@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
+  resources :toolbelts
   resources :users do
     collection do
       post '/login', to: 'users#login'
-    end  
+    end
   end
   root 'welcome#index'
   resources :taggers
