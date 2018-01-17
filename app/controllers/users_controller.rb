@@ -43,7 +43,7 @@ class UsersController < ApplicationController
   def login
     user = User.find_by(username: params[:user][:username])
     if user && user.authenticate(params[:user][:password])
-      token = create_token(user.id, user.username, user.img,user.created_by)
+      token = create_token(user.id, user.username, user.img)
       render json: {status: 200,token: token, user: user}
     else
       render json: {status: 401, message: "Unauthorized"}
@@ -58,10 +58,10 @@ class UsersController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def user_params
-    params.require(:user).permit(:username,  :password, :img, :created_by)
+    params.require(:user).permit(:username,  :password, :img)
   end
 
-  def payload(id, username, img, created_by)
+  def payload(id, username, img)
     {
       exp: (Time.now + 30.minutes).to_i,
       iat: Time.now.to_i,
@@ -69,14 +69,13 @@ class UsersController < ApplicationController
       user: {
         id: id,
         username: username,
-        img: img,
-        created_by: created_by
+        img: img
       }
     }
   end
 
-  def create_token(id, username, img, created_by)
-    JWT.encode(payload(id, username, img, created_by), ENV['JWT_SECRET'], 'HS256')
+  def create_token(id, username, img)
+    JWT.encode(payload(id, username, img), ENV['JWT_SECRET'], 'HS256')
   end
 
   def get_current_user
