@@ -47,6 +47,6 @@ class ToolsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def tool_params
-      params.require(:tool).permit(:title, :language_id, :description, :repl_url, :num_belts, :repl, :link_url, :user_id,:created_by)
+      params.require(:tool).permit(:title, :language_id, :description, :repl_url, :num_belts, :repl, :link_url, :user_id, :created_by, :lang_url)
     end
 end
