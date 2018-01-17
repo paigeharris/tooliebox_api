@@ -5,12 +5,12 @@ class ToolsController < ApplicationController
   def index
     @tools = Tool.all
 
-    render json: @tools.to_json(include: :tags)
+    render json: @tools.to_json(include: [:comments,:tags])
   end
 
   # GET /tools/1
   def show
-    render json: @tool.to_json(include: :tags)
+    render json: @tool.to_json(include: [:comments,:tags])
   end
 
   # POST /tools
@@ -47,6 +47,6 @@ class ToolsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def tool_params
-      params.require(:tool).permit(:title, :language_id, :description, :repl_url, :num_belts)
+      params.require(:tool).permit(:title, :language_id, :description, :repl_url, :num_belts, :repl, :link_url, :user_id)
     end
 end
