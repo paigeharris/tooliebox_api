@@ -18,6 +18,8 @@ class ToolbeltsController < ApplicationController
     @toolbelt = Toolbelt.new(toolbelt_params)
 
     if @toolbelt.save
+
+      increment!((Tool.find(toolbelt.tool_id).num_belts), by = 1)
       render json: @toolbelt, status: :created
     else
       render json: @toolbelt.errors, status: :unprocessable_entity
