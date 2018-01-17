@@ -4,7 +4,7 @@ Language.create(
     {
       name:"JavaScript",
       dox_url:"https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      img_url:"img/svg/js.svg"
+      img_url:"img/svg/js.svg",
     },
     {
       name:"Ruby",
@@ -96,7 +96,8 @@ Tool.create(
       repl_url: "https://repl.it/repls/ConcernedGoldNorthernseahorse",
       num_belts:1,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"TESTING: For Of Loop",
@@ -105,7 +106,8 @@ Tool.create(
       repl_url: "https://repl.it/repls/SizzlingSlimyGenet",
       num_belts:2,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"While Loop: Equation",
@@ -114,7 +116,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-While-Loop-Equation",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"While Loop: Boolean",
@@ -123,7 +126,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-While-Loop-Boolean",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"Postfix and Compound Assignment Operators",
@@ -132,7 +136,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Postfix-and-Compound-Assignment-Operators",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"For Loop, Simple Syntax",
@@ -141,7 +146,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-For-Loop-Simple-Syntax",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"If Statement",
@@ -150,7 +156,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-If-Statement",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"If/Else, Else If Statements",
@@ -159,7 +166,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-IfElse-Else-If-Statements",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"For Loop including If/Else Statement",
@@ -168,7 +176,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-For-Loop-including-IfElse-Statement",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"For Loop including If/Else to Find Even Integers",
@@ -177,7 +186,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-For-Loop-including-If-Statement-Find-Even-Integers",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"For Loop including If/Else to Sum Integers",
@@ -186,7 +196,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-For-Loop-including-IfElse-Sum-Integers",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"Query Array to Retrieve Item by Index",
@@ -195,7 +206,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Query-Array-to-Find-Item-by-Index",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"For Loop over an Array of Items returning all",
@@ -204,7 +216,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-For-Loop-over-an-Array-returning-All",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"For Loop over an Array returning Every Other Item",
@@ -213,7 +226,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-For-Loop-over-an-Array-returning-Every-Other-Item",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"For Loop over an Array returning Even Indices",
@@ -222,7 +236,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-For-Loop-over-an-Array-returning-Even-Inidices",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"Update an Item in an Array by Index",
@@ -231,7 +246,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Update-Item-in-Array",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"Add an Item in an Array by Index",
@@ -240,7 +256,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Add-Item-to-an-Array-by-Index",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"Add an Item to an Array by .push() Method",
@@ -249,7 +266,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Adding-to-Array-by-push-Method",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"Remove an Item from an Array by .pop() Method",
@@ -258,7 +276,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Deleting-from-Array-by-pop-Method",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"Anonymous Function, Simple Syntax",
@@ -267,7 +286,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Anonymous-Function-Simple-Syntax",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"Named Function including If/Else Conditional Statement",
@@ -276,7 +296,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Named-Function-including-IfElse-Conditional-Statement",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"Function Interpolation with an Argument",
@@ -285,7 +306,8 @@ Tool.create(
       repl_url: "https://repl.it/@carriesampson/JS-Function-Interpolation-with-an-Argument",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"",
@@ -294,7 +316,8 @@ Tool.create(
       repl_url: "",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"",
@@ -303,7 +326,8 @@ Tool.create(
       repl_url: "",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"",
@@ -312,7 +336,8 @@ Tool.create(
       repl_url: "",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"",
@@ -321,7 +346,8 @@ Tool.create(
       repl_url: "",
       num_belts:0,
       repl:true,
-      created_by:"toolio"
+      created_by:"toolio",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"",
@@ -330,7 +356,8 @@ Tool.create(
       repl_url: "",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"",
@@ -339,7 +366,8 @@ Tool.create(
       repl_url: "",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
     },
     {
       title:"",
@@ -348,8 +376,9 @@ Tool.create(
       repl_url: "",
       num_belts:0,
       repl:true,
-      created_by:"toolia"
-    },
+      created_by:"toolia",
+      lang_url:"img/svg/js.svg"
+    }
   ]
 )
 
