@@ -10,7 +10,7 @@ class ToolsController < ApplicationController
 
   # GET /tools/1
   def show
-    render json: @tool.to_json(include: [:comments,:tags)
+    render json: @tool.to_json(include: [:comments,:tags])
   end
 
   # POST /tools
