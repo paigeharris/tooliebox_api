@@ -44,7 +44,8 @@ class UsersController < ApplicationController
     user = User.find_by(username: params[:user][:username])
     if user && user.authenticate(params[:user][:password])
       token = create_token(user.id, user.username, user.img)
-      render json: {status: 200,token: token, user: user}
+
+      render json: {status: 200,token: token, user: user.to_json(include: {tools: {include: :tags}})}
     else
       render json: {status: 401, message: "Unauthorized"}
     end
