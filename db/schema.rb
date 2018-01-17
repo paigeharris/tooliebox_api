@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_01_17_195703) do
+ActiveRecord::Schema.define(version: 2018_01_17_203315) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,8 +21,8 @@ ActiveRecord::Schema.define(version: 2018_01_17_195703) do
     t.string "text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "user_name"
-    t.string "user_img"
+    t.string "name"
+    t.string "img"
     t.index ["tool_id"], name: "index_comments_on_tool_id"
     t.index ["user_id"], name: "index_comments_on_user_id"
   end
