@@ -36,6 +36,7 @@ class ToolsController < ApplicationController
 
   # DELETE /tools/1
   def destroy
+    Toolbelt.where(tool_id: @tool.id).destroy_all
     @tool.destroy
   end
 
