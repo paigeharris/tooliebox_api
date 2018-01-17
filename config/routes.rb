@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :comments
   resources :toolbelts
   resources :users do
     collection do

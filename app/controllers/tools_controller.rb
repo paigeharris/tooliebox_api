@@ -5,12 +5,12 @@ class ToolsController < ApplicationController
   def index
     @tools = Tool.all
 
-    render json: @tools.to_json(include: :tags)
+    render json: @tools.to_json(include: [:comments,:tags])
   end
 
   # GET /tools/1
   def show
-    render json: @tool.to_json(include: :tags)
+    render json: @tool.to_json(include: [:comments,:tags])
   end
 
   # POST /tools
