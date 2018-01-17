@@ -5,12 +5,12 @@ class ToolbeltsController < ApplicationController
   def index
     @toolbelts = Toolbelt.all
 
-    render json: @toolbelts
+    render json: @toolbelts.to_json(include: [:users,:tools])
   end
 
   # GET /toolbelts/1
   def show
-    render json: @toolbelt
+    render json: @toolbelt.to_json(include: [:users,:tools])
   end
 
   # POST /toolbelts
