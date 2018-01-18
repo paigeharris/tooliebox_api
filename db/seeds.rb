@@ -300,7 +300,7 @@ Tool.create(
       lang_url:"img/svg/js.svg"
     },
     {
-      title:"Function Interpolation with an Argument",
+      title: "Function Interpolation with an Argument",
       language_id: 1,
       description: "Function Interpolation with an Argument",
       repl_url: "https://repl.it/@carriesampson/JS-Function-Interpolation-with-an-Argument",
@@ -308,29 +308,192 @@ Tool.create(
       repl:true,
       created_by:"toolio",
       lang_url:"img/svg/js.svg"
+    },
+    # --------------------------------------
+    {
+      title: "Full Text Searching Rails with Postgres",
+      language_id: 13,
+      description: "Full text search in Rails with Postgres",
+      link_url: "https://www.viget.com/articles/implementing-full-text-search-in-rails-with-postgres/",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/rails.svg"
+    },
+    {
+      title: "Using Fetch with AJAX",
+      language_id: 1,
+      description: "Database call with AJAX to fetch data",
+      link_url: "https://css-tricks.com/using-fetch/",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/js.svg"
+    },
+    {
+      title: "Using Basic Ruby Blocks",
+      language_id: 2,
+      description: "Inline, multi-line and yield blocks",
+      repl_url: "https://repl.it/@carriesampson/Ruby-Basic-Blocks",
+      num_belts:0,
+      repl:true,
+      created_by:"carrie",
+      lang_url:"img/svg/ruby.svg"
+    },
+    {
+      title: "Ruby Block: Divisible Element of an Array",
+      language_id: 2,
+      description: "Using Ruby to find divisible elements in an array",
+      repl_url: "https://repl.it/@carriesampson/Ruby-Find-Divisible-Elements-of-an-Array",
+      num_belts:0,
+      repl:true,
+      created_by:"carrie",
+      lang_url:"img/svg/ruby.svg"
+    },
+    {
+      title: "Initialize an Object with Default Values",
+      language_id: 2,
+      description: "Create an object that has default values for yield",
+      repl_url: "https://repl.it/@carriesampson/Ruby-Initialize-Objects-with-Default-Values",
+      num_belts:0,
+      repl:true,
+      created_by:"carrie",
+      lang_url:"img/svg/ruby.svg"
+    },
+    {
+      title: "Using Ruby to wrap text in HTML tags",
+      language_id: 2,
+      description: "Create dynamic text with Ruby wrapped in HTML",
+      repl_url: "https://repl.it/@carriesampson/Ruby-Wrap-text-in-HTML-tags",
+      num_belts:0,
+      repl:true,
+      created_by:"carrie",
+      lang_url:"img/svg/ruby.svg"
+    },
+    {
+      title: "Map Method to Iterate in Ruby",
+      language_id: 2,
+      description: "Using the .map(&:something) method",
+      repl_url: "https://repl.it/@carriesampson/Ruby-Wrap-text-in-HTML-tags",
+      num_belts:0,
+      repl:true,
+      created_by:"carrie",
+      lang_url:"img/svg/ruby.svg"
+    },
+    {
+      title: "Ruby Enumerable",
+      language_id: 2,
+      description: "Great overview on enumerables in Ruby!",
+      link_url: "http://ruby-doc.org/core-2.5.0/Enumerable.html",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/ruby.svg"
+    },
+    {
+      title: "Creating a CSS Modal",
+      language_id: 4,
+      description: "Creating a CSS Modal (Overlay)",
+      link_url: "https://www.w3schools.com/howto/howto_css_modals.asp",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/css3.svg"
+    },
+    {
+      title: "Configuring Publishing a Page in GitHub",
+      language_id: 6,
+      description: "Publishing your site with GitHub as a Publishing Source",
+      link_url: "https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/github.svg"
+    },
+    {
+      title: "Rails Debugger - Use the ByeBug Gem!",
+      language_id: 13,
+      description: "No gem install; it's an included gem and it's great for debugging.",
+      link_url: "https://rubyplus.com/articles/3631-Debugging-using-ByeBug-Gem-in-Rails-5",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/rails.svg"
+    },
+    {
+      title: "Favicons and Touch Icons",
+      language_id: 4,
+      description: "Favicon implementation plus great links to Apple and Android touch icons for mobile",
+      link_url: "https://bitsofco.de/all-about-favicons-and-touch-icons/",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/css3.svg"
+    },
+    {
+      title: "Finding Prime Numbers Solution",
+      language_id: 2,
+      description: "Solved prime numbers - find and return for primes under 100",
+      link_url: "https://bitsofco.de/all-about-favicons-and-touch-icons/",
+      num_belts:0,
+      link:true,
+      created_by:"blake",
+      lang_url:"img/svg/ruby.svg"
+    },
+    {
+      title: "Using the <time> Element to Format Date with Time",
+      language_id: 8,
+      description: "HTML5 use of <time> tag to format date and time",
+      link_url: "https://pineco.de/better-date-format-with-time-element/?utm_source=frontendfocus&utm_medium=email",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/html5.svg"
+    },
+    {
+      title: "Commands in Heroku",
+      language_id: 7,
+      description: "HTML5 use of <time> tag to format date and time",
+      link_url: "https://pineco.de/better-date-format-with-time-element/?utm_source=frontendfocus&utm_medium=email",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/heroku.svg"
     }
   ]
 )
 
-Tag.create(
-  [
-    {
-      text:"Helpful"
-    },
-    {
-      text:"Neat"
-    },
-    {
-      text:"Loop"
-    }
-  ]
-)
+# Tag.create(
+#   [
+#     {
+#       text:"Helpful"
+#     },
+#     {
+#       text:"Neat"
+#     },
+#     {
+#       text:"Loop"
+#     }
+#   ]
+# )
+
+array_tag = Tag.create({text: 'array'})
+loop_tag = Tag.create({text: 'loop'})
+object_tag = Tag.create({text: 'object'})
+testing_tag = Tag.create({text: 'testing'})
+method_tag = Tag.create({text: 'method'})
+function_tag = Tag.create({text: 'function'})
+hacks_tag = Tag.create({text: 'hacks'})
+syntax_tag = Tag.create({text: 'syntax'})
+servers_tag = Tag.create({text: 'servers'})
+apis_tag = Tag.create({text: 'apis'})
+ifelse_tag = Tag.create({text: 'if-else'})
 
 Tagger.create(
   [
     {
       tool_id:1,
-      tag_id:1
+      tag_id: array_tag.id
     },
     {
       tool_id:1,
