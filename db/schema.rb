@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_01_17_203315) do
+ActiveRecord::Schema.define(version: 2018_01_18_032634) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -64,7 +64,7 @@ ActiveRecord::Schema.define(version: 2018_01_17_203315) do
     t.bigint "language_id"
     t.string "description"
     t.string "repl_url"
-    t.integer "num_belts"
+    t.integer "num_belts", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.boolean "repl"
