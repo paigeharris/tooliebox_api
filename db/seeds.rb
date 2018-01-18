@@ -316,7 +316,7 @@ Tool.create(
       description: "Full text search in Rails with Postgres",
       link_url: "https://www.viget.com/articles/implementing-full-text-search-in-rails-with-postgres/",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"carrie",
       lang_url:"img/svg/rails.svg"
     },
@@ -326,7 +326,7 @@ Tool.create(
       description: "Database call with AJAX to fetch data",
       link_url: "https://css-tricks.com/using-fetch/",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"carrie",
       lang_url:"img/svg/js.svg"
     },
@@ -386,7 +386,7 @@ Tool.create(
       description: "Great overview on enumerables in Ruby!",
       link_url: "http://ruby-doc.org/core-2.5.0/Enumerable.html",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"carrie",
       lang_url:"img/svg/ruby.svg"
     },
@@ -396,7 +396,7 @@ Tool.create(
       description: "Creating a CSS Modal (Overlay)",
       link_url: "https://www.w3schools.com/howto/howto_css_modals.asp",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"carrie",
       lang_url:"img/svg/css3.svg"
     },
@@ -406,7 +406,7 @@ Tool.create(
       description: "Publishing your site with GitHub as a Publishing Source",
       link_url: "https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"carrie",
       lang_url:"img/svg/github.svg"
     },
@@ -416,7 +416,7 @@ Tool.create(
       description: "No gem install; it's an included gem and it's great for debugging.",
       link_url: "https://rubyplus.com/articles/3631-Debugging-using-ByeBug-Gem-in-Rails-5",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"carrie",
       lang_url:"img/svg/rails.svg"
     },
@@ -426,7 +426,7 @@ Tool.create(
       description: "Favicon implementation plus great links to Apple and Android touch icons for mobile",
       link_url: "https://bitsofco.de/all-about-favicons-and-touch-icons/",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"carrie",
       lang_url:"img/svg/css3.svg"
     },
@@ -436,7 +436,7 @@ Tool.create(
       description: "Solved prime numbers find and return for primes under 100",
       link_url: "https://bitsofco.de/all-about-favicons-and-touch-icons/",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"blake",
       lang_url:"img/svg/ruby.svg"
     },
@@ -446,7 +446,7 @@ Tool.create(
       description: "HTML5 use of <time> tag to format date and time",
       link_url: "https://pineco.de/better-date-format-with-time-element/?utm_source=frontendfocus&utm_medium=email",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"carrie",
       lang_url:"img/svg/html5.svg"
     },
@@ -456,7 +456,7 @@ Tool.create(
       description: "HTML5 use of <time> tag to format date and time",
       link_url: "https://pineco.de/better-date-format-with-time-element/?utm_source=frontendfocus&utm_medium=email",
       num_belts:0,
-      link:true,
+      repl:false,
       created_by:"carrie",
       lang_url:"img/svg/heroku.svg"
     }
@@ -544,3 +544,5 @@ Tagger.create(
       tool_id:3
     }
     ]);
+
+puts 'seeded'
