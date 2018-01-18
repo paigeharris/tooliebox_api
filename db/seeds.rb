@@ -440,24 +440,26 @@ Tool.create(
       created_by:"blake",
       lang_url:"img/svg/ruby.svg"
     },
-
-HTML5
-https://pineco.de/better-date-format-with-time-element/?utm_source=frontendfocus&utm_medium=email
-
-JS-AJAX
-https://medium.com/front-end-hacking/ajax-async-callback-promise-e98f8074ebd7
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-https://docs.angularjs.org/api/ngRoute
-https://dorey.github.io/JavaScript-Equality-Table/
-https://momentjs.com/
-
-RUBY
-http://blog.honeybadger.io/ruby-self-cheat-sheet/
-
-HEROKU
-
-
-
+    {
+      title: "Using the <time> Element to Format Date with Time",
+      language_id: 8,
+      description: "HTML5 use of <time> tag to format date and time",
+      link_url: "https://pineco.de/better-date-format-with-time-element/?utm_source=frontendfocus&utm_medium=email",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/html5.svg"
+    },
+    {
+      title: "Commands in Heroku",
+      language_id: 7,
+      description: "HTML5 use of <time> tag to format date and time",
+      link_url: "https://pineco.de/better-date-format-with-time-element/?utm_source=frontendfocus&utm_medium=email",
+      num_belts:0,
+      link:true,
+      created_by:"carrie",
+      lang_url:"img/svg/heroku.svg"
+    }
   ]
 )
 
@@ -477,7 +479,15 @@ HEROKU
 
 array_tag = Tag.create({text: 'array'})
 loop_tag = Tag.create({text: 'loop'})
-
+object_tag = Tag.create({text: 'object'})
+testing_tag = Tag.create({text: 'testing'})
+method_tag = Tag.create({text: 'method'})
+function_tag = Tag.create({text: 'function'})
+hacks_tag = Tag.create({text: 'hacks'})
+syntax_tag = Tag.create({text: 'syntax'})
+servers_tag = Tag.create({text: 'servers'})
+apis_tag = Tag.create({text: 'apis'})
+ifelse_tag = Tag.create({text: 'if-else'})
 
 Tagger.create(
   [
